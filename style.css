@@ -1,0 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Noto+Sans:wght@300&family=Sacramento&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Noto+Sans:wght@300&family=Playfair+Display:ital@0;1&family=Sacramento&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Jost:wght@700&family=Noto+Sans:wght@300&family=Sacramento&display=swap');
+
+html,
+body,
+img {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Jost';
+  color: white;
+  text-transform: uppercase;
+  font-size: 128px;
+}
+
+h2 {
+  font-family: 'Sacramento';
+  color: white;
+  font-size: 64px;
+  padding: 10px 0;
+}
+
+h3 {
+  font-family: 'Jost';
+  font-size: 400px;
+  user-select: none;
+  position: absolute;
+  top: 100px;
+  color: white;
+  z-index: 1;
+}
+
+h4 {
+  font-family: 'Jost';
+  font-size: 64px;
+  color: white;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Noto Sans';
+  font-size: 38px;
+  line-height: 44px;
+  color: white;
+}
+
+i {
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+header {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('img/talvi.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+header svg {
+  position: absolute;
+  bottom: 32px;
+}
+
+section {
+  min-height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.umlaut h3 {
+  top: 145px;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.blue {
+  background-color: #89BAD9;
+}
+
+.dark-blue {
+  background-color: #61829F;
+}
+
+.green {
+  background-color: #6EB257;
+}
+
+.yellow {
+  background-color: #F5D167;
+}
+
+.pink {
+  background-color: #F9B5AC;
+}
+
+.white h3,
+.white h4 {
+  color: #413D34
+}
+
+.left h3 {
+  left: -30px;
+  text-align: left;
+}
+
+.right h3 {
+  right: -30px;
+  text-align: right;
+}
+
+.j-kirjain h3 {
+  left: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content p {
+  color: #413D34;
+  z-index: 2;
+}
+
+.epilogue {
+  background-color: black;
+  height: 80vh;
+}
+
+.epilogue .content {
+  height: 80vh;
+}
+
+.epilogue p {
+  color: white;
+  font-family: 'EB Garamond';
+  font-size: 24px;
+  line-height: 30px;
+  padding: 20px 0;
+}
+
+footer p {
+  background-color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+}
